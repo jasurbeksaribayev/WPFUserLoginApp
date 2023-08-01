@@ -22,11 +22,11 @@
                     md:HintAssist.Hint="Market name"
                     Style="{StaticResource MaterialDesignOutlinedTextBox}" />
             </DockPanel>
-            <Button x:Name="mealAddBtn"
+            <Button x:Name="marketAddBtn"
                     Width="90"
                     Content="+Add"
                     FontSize="12" 
-                    Click="mealAddBtn_Click">
+                    Click="marketAddBtn_Click">
             </Button>
         </StackPanel>
     </Grid>

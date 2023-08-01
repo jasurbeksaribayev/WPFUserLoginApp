@@ -32,7 +32,7 @@ namespace WpfApp1.Pages
             this.marketRepository = new GenericRepository<Market>();
         }
 
-        private async void mealAddBtn_Click(object sender, RoutedEventArgs e)
+        private async void marketAddBtn_Click(object sender, RoutedEventArgs e)
         {
             market.Name = AddMarketName.Text;
 
@@ -41,6 +41,6 @@ namespace WpfApp1.Pages
             MessageBox.Show("Successfully added");
 
             this.NavigationService.Navigate(null);
-        } 
+        }
     }
 }
